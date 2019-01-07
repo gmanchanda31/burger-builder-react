@@ -8,10 +8,10 @@ class App extends Component {
   render() {
     return <div>
         <Layout>
-          <switch>
+          <Switch>
             <Route path="/checkout" component={Checkout} />
             <Route path="/" exact component={BurgerBuilder} />
-          </switch>
+          </Switch>
         </Layout>
       </div>; 
   }
